@@ -3,11 +3,11 @@
     <head>
         <title>Connexion administrateur</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <link rel="stylesheet" href="<?php echo asset('assets/Login/bootstrap/css/bootstrap.min.css')?>">
-        <link rel="stylesheet" href="<?php echo asset('assets/Login/fonts/fontawesome-all.min.css')?>">
+        <link rel="stylesheet" href="assets/Login/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/Login/fonts/fontawesome-all.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-        <link rel="stylesheet" href="<?php echo asset('assets/Login/css/Ludens-Users---2-Register.css')?>">
-        <link rel="stylesheet" href="<?php echo asset('assets/Login/css/styles.css')?>">
+        <link rel="stylesheet" href="assets/Login/css/Ludens-Users---2-Register.css">
+        <link rel="stylesheet" href="assets/Login/css/styles.css">
     </head>
 <body>
 
@@ -32,8 +32,8 @@
 
         </div>
     </section>
-    <script src="<?php echo asset('assets/Login/bootstrap/js/bootstrap.min.js');?>"></script>
-    <script src="<?php echo asset('assets/Login/js/bs-init.js');?>"></script>
+    <script src="assets/Login/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/Login/js/bs-init.js"></script>
 
 </body>
 </html>

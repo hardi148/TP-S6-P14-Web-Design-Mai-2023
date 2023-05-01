@@ -5,14 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Accueil</title>
-    <link rel="stylesheet" href="<?php echo asset('assets/Acc_Admin/bootstrap/css/bootstrap.min.css');?>">
+    <link rel="stylesheet" href="assets/Acc_Admin/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;display=swap">
-    <link rel="stylesheet" href="<?php echo asset('assets/Acc_Admin/fonts/fontawesome-all.min.css');?>">
-    <link rel="stylesheet" href="<?php echo asset('assets/Acc_Admin/css/checkbox.css');?>">
+    <link rel="stylesheet" href="assets/Acc_Admin/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/Acc_Admin/css/checkbox.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <script src="https://cdn.ckeditor.com/ckeditor5/33.1.0/classic/ckeditor.js"></script>
-    <link rel="stylesheet" href="<?php echo asset('assets/Login/js/test.css') ?>">
+    <link rel="stylesheet" href="assets/Login/js/test.css">
 </head>
 <body id="page-top">
   <div id="wrapper">
@@ -47,12 +47,6 @@
             </div>
         </nav>
         <div class="container-fluid">
-                
-
-      
-
-
-       
         </div>
               <footer class="bg-white sticky-footer">
                 <div class="container my-auto">
@@ -61,11 +55,11 @@
               </footer>
             </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
             </div>
-    <script src="<?php echo asset('assets/Acc_Admin/bootstrap/js/bootstrap.min.js');?>"></script>
-    <script src="<?php echo asset('assets/Acc_Admin/js/bs-init.js');?>"></script>
+    <script src="assets/Acc_Admin/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/Acc_Admin/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="<?php echo asset('assets/Acc_Admin/js/HTML-Table-to-Excel-V2.js');?>"></script>
-    <script src="<?php echo asset('assets/Acc_Admin/js/theme.js');?>"></script>
+    <script src="assets/Acc_Admin/js/HTML-Table-to-Excel-V2.js"></script>
+    <script src="assets/Acc_Admin/js/theme.js"></script>
 </body>
 </html>
 
