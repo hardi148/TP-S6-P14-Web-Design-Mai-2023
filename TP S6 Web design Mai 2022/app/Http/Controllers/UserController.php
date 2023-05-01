@@ -36,13 +36,15 @@ class UserController extends Controller
         $lastPage = $liste->lastPage();
         $listeNumeroPage = range(1, $lastPage);
     
-        return view('user/Acceuill_user', [
+        $response = response()->view('user/Acceuill_user', [
             'listeInfo' => $listeInfo,
             'listePub' => $liste,
             'currentPage' => $currentPage,
             'listeNumeroPage' => $listeNumeroPage,
             'lastPage' => $lastPage,
         ]);
+        $response->header('Cache-Control', 'max-age=3600, public');
+        return $response;
     }
     
 
@@ -94,12 +96,14 @@ class UserController extends Controller
     $lastPage = $liste->lastPage();
     $listeNumeroPage = range(1, $lastPage);
 
-    return view('user/faq', [
+    $response = response()->view('user/faq', [
         'liste' => $liste,
         'lastPage' => $lastPage,
         'listeNumeroPage' => $listeNumeroPage,
         'currentPage' => $currentPage,
     ]);
+    $response->header('Cache-Control', 'max-age=3600, public');
+    return $response;
 }
 
 
