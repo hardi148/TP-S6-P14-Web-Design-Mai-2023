@@ -49,11 +49,11 @@
       </nav><!-- .navbar -->
 
       <div class="position-relative">
-        <a href="#" class="mx-2"><span class="bi-facebook"></span></a>
-        <a href="#" class="mx-2"><span class="bi-twitter"></span></a>
-        <a href="#" class="mx-2"><span class="bi-instagram"></span></a>
+        <a  class="mx-2"><span class="bi-facebook"></span></a>
+        <a  class="mx-2"><span class="bi-twitter"></span></a>
+        <a  class="mx-2"><span class="bi-instagram"></span></a>
 
-        <a href="#" class="mx-2 js-search-open"><span class="bi-search"></span></a>
+        <a class="mx-2 js-search-open"><span class="bi-search"></span></a>
         <i class="bi bi-list mobile-nav-toggle"></i>
 
         <!-- ======= Search Form ======= -->
@@ -125,7 +125,7 @@
       @foreach($listePub as $rows) <!-- boucle pour afficher 12 cartes -->
             <div class="col-md-3">
               <div class="card">
-                <img src="{{ $rows->img }}" class="card-img-top" alt="...">
+                <img src="{{ $rows->img }}" width="100px" height="300px" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h1 class="card-title">{{ $rows->titre }}</h1>
                   <h2 class="my-3">Auteur : {{ $rows->auteur }}</h2>

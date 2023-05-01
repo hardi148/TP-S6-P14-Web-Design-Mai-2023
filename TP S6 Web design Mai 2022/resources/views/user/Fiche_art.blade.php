@@ -16,7 +16,7 @@
       <div class="col-md-8">
         <h1>{{ $fiche->titre }}</h1>
         <p class="text-muted">{{ $fiche->datepublication }}</p>
-        <img src="{{ $fiche->img }}" alt="{{ $fiche->titre }}" class="img-fluid my-4">
+        <img src="{{ $fiche->img }}" width="300px" height="500px" alt="{{ $fiche->titre }}" class="img-fluid my-4">
         <p>{{ $fiche->resumer }}</p>
         <hr>
         <div>
