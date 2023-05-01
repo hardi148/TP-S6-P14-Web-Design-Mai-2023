@@ -4,9 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>E-Art</title>
-  <meta content="" name="description">
+  <meta name="description" content="Tojo va vous aider a decouvrir l'intelligence artificielle : Définition,articles et FAQ">
+  <title>L'intelligence artificielle par Tojo - Définition,articles et FAQ</title>
   <meta content="" name="keywords">
 
   <!-- Favicons -->

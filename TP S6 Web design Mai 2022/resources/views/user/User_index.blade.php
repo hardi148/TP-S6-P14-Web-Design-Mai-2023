@@ -3,6 +3,8 @@
     <head>
         <title>Connexion administrateur</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta name="description" content="Tojo va vous aider a decouvrir l'intelligence artificielle : Définition,articles et FAQ">
+        <title>L'intelligence artificielle par Tojo - Définition,articles et FAQ</title>
         <link rel="stylesheet" href="<?php echo asset('assets/Login/bootstrap/css/bootstrap.min.css')?>">
         <link rel="stylesheet" href="<?php echo asset('assets/Login/fonts/fontawesome-all.min.css')?>">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">

@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Accueil</title>
+    <meta name="description" content="Tojo va vous aider a decouvrir l'intelligence artificielle : Définition,articles et FAQ">
+    <title>L'intelligence artificielle par Tojo - Définition,articles et FAQ</title>
     <link rel="stylesheet" href="assets/Acc_Admin/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;display=swap">
     <link rel="stylesheet" href="assets/Acc_Admin/fonts/fontawesome-all.min.css">
@@ -47,12 +48,25 @@
             </div>
         </nav>
         <div class="container-fluid">
-        </div>
+          <main>
+            <h1>L'intelligence artificielle - Définition, applications et enjeux</h1>
+            <h2>Définition</h2>
+            <p>L'intelligence artificielle (IA) est une branche de l'informatique qui se concentre sur la création de machines capables de réaliser des tâches nécessitant normalement l'intelligence humaine.</p>
+            <h2>Applications</h2>
+            <p>Les applications de l'IA sont vastes et en constante évolution. Elles vont de la reconnaissance vocale et faciale à la prédiction de la météo, en passant par la recommandation de produits et la traduction automatique.</p>
+            <h2>Enjeux éthiques</h2>
+            <p>L'IA soulève des enjeux éthiques importants, notamment en matière de protection des données, de biais algorithmique et de responsabilité juridique. Il est important d'encadrer son utilisation pour éviter les abus et les dérives.</p>
+            <h2>Perspectives d'avenir</h2>
+            <p>L'IA a le potentiel de transformer de nombreux secteurs, de la santé à l'énergie en passant par la finance et l'agriculture. Les perspectives d'avenir sont donc nombreuses et prometteuses, mais nécessitent une approche réfléchie et responsable.</p>
+          </main>
+
               <footer class="bg-white sticky-footer">
                 <div class="container my-auto">
                     <div class="text-center my-auto copyright"><span>Copyright © Brand 2023</span></div>
                 </div>
               </footer>
+
+            </div>
             </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
             </div>
     <script src="assets/Acc_Admin/bootstrap/js/bootstrap.min.js"></script>
