@@ -31,7 +31,7 @@
     <section class="register-photo" style="background-color: transparent;">
         <div class="form-container">
             <div class="image-holder" style="background: url(&quot;<?php echo asset('assets/Login/img/RH.jpg');?>&quot;);"></div>
-            <form action="{{url('/log_admin')}}" method="post">
+            <form action="{{url('/log_admin')}}" method="post" autocomplete="off">
     {{ csrf_field() }}
                 <h2 class="text-center"><strong>Bienvenue Admin</strong></h2>
                 <div class="form-group mb-3"><input class="form-control" type="text" name="mail" value="hardi" required placeholder="Email"></div>
