@@ -8,6 +8,7 @@ use App\article;
 use App\information;
 use App\faq;
 use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\DB;
 
 class UserController extends Controller
 {
@@ -124,6 +125,22 @@ class UserController extends Controller
         return redirect("faq");
     }
 
+
+    public function searchFront(Request $request)
+    {
+        $keyword = $request->input('motcle');
+    
+        $articles = DB::table('articles')
+                    ->where('titre', 'LIKE', '%'.$keyword.'%')
+                    ->orWhere('contenu', 'LIKE', '%'.$keyword.'%')
+                    ->orWhere('resumer', 'LIKE', '%'.$keyword.'%')
+                    ->orWhere('auteur', 'LIKE', '%'.$keyword.'%')
+                    ->get();
+
+         return view('user/result',[
+            'articles' => $articles,
+         ]);           
+    }
 
 }
 

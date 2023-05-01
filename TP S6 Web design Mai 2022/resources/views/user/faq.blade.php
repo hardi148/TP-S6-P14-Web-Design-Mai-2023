@@ -44,9 +44,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="{{ url('/faq') }}">Faq</a></li>
-          <li><a href="{{ url('/about') }}">A propos</a></li>
-          <li><a href="single-post.html">Log Out</a></li>
+          <li><a href="{{ url('/faq') }}">FAQ</a></li>
         </ul>
       </nav><!-- .navbar -->
 

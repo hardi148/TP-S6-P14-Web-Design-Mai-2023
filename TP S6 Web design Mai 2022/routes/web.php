@@ -40,5 +40,5 @@ Route::get('/faq',\App\Http\Controllers\UserController::class . '@faq');
 Route::post('/insererFaq',\App\Http\Controllers\UserController::class . '@insererFaq');
 Route::get('/paginationFront/{numero}',\App\Http\Controllers\UserController::class . '@pagination');
 Route::get('/paginationFAQ/{numero}',\App\Http\Controllers\UserController::class . '@paginationFAQ');
-
+Route::post('/searchFront',\App\Http\Controllers\UserController::class . '@searchFront');
 
