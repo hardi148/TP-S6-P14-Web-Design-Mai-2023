@@ -36,15 +36,13 @@ class UserController extends Controller
         $lastPage = $liste->lastPage();
         $listeNumeroPage = range(1, $lastPage);
     
-        $response = response()->view('user/Acceuill_user', [
+        return view('user/Acceuill_user', [
             'listeInfo' => $listeInfo,
             'listePub' => $liste,
             'currentPage' => $currentPage,
             'listeNumeroPage' => $listeNumeroPage,
             'lastPage' => $lastPage,
         ]);
-        $response->header('Cache-Control', 'max-age=3600, public');
-        return $response;
     }
     
 
@@ -96,14 +94,12 @@ class UserController extends Controller
     $lastPage = $liste->lastPage();
     $listeNumeroPage = range(1, $lastPage);
 
-    $response = response()->view('user/faq', [
+    return view('user/faq', [
         'liste' => $liste,
         'lastPage' => $lastPage,
         'listeNumeroPage' => $listeNumeroPage,
         'currentPage' => $currentPage,
     ]);
-    $response->header('Cache-Control', 'max-age=3600, public');
-    return $response;
 }
 
 
@@ -128,23 +124,5 @@ class UserController extends Controller
         $request->session()->put('faq',$currentPage);
         return redirect("faq");
     }
-
-
-    public function searchFront(Request $request)
-    {
-        $keyword = $request->input('motcle');
-    
-        $articles = DB::table('articles')
-                    ->where('titre', 'LIKE', '%'.$keyword.'%')
-                    ->orWhere('contenu', 'LIKE', '%'.$keyword.'%')
-                    ->orWhere('resumer', 'LIKE', '%'.$keyword.'%')
-                    ->orWhere('auteur', 'LIKE', '%'.$keyword.'%')
-                    ->get();
-
-         return view('user/result',[
-            'articles' => $articles,
-         ]);           
-    }
-
 }
 
