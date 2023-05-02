@@ -124,5 +124,21 @@ class UserController extends Controller
         $request->session()->put('faq',$currentPage);
         return redirect("faq");
     }
+
+    public function searchFront(Request $request)
+    {
+        $keyword = $request->input('motcle');
+    
+        $articles = DB::table('articles')
+                    ->where('titre', 'LIKE', '%'.$keyword.'%')
+                    ->orWhere('contenu', 'LIKE', '%'.$keyword.'%')
+                    ->orWhere('resumer', 'LIKE', '%'.$keyword.'%')
+                    ->orWhere('auteur', 'LIKE', '%'.$keyword.'%')
+                    ->get();
+
+         return view('user/result',[
+            'articles' => $articles,
+         ]);           
+    }
 }
 
