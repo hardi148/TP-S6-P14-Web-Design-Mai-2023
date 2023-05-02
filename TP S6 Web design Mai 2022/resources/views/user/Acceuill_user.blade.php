@@ -117,7 +117,6 @@
         <form action="{{ url('/searchFront') }}" class="search-form" method="post">
           {{ csrf_field() }}
             <span class="icon bi-search"></span>
-            <input type="text" placeholder="Entrer un mot cle" class="form-control">
             <input type="text" name="motcle" placeholder="Entrer un mot cle" class="form-control">
             <button class="btn js-search-close"><span class="bi-x"></span></button>
           </form>
